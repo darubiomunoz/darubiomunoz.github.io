@@ -1,16 +1,25 @@
 .hero
 {
-    font-family: Lato, serif;
+    background-image: url(https://z-p3-scontent.fscl20-1.fna.fbcdn.net/v/t1.0-9/122490008_182708766791980_7733747498968028733_n.jpg?_nc_cat=110&ccb=2&_nc_sid=8024bb&_nc_ohc=c6X8x5S88j8AX_f7zpo&_nc_ht=z-p3-scontent.fscl20-1.fna&oh=a28fb08e7d5fdb4ec8945daf646afe);
+}
+.hero_info
+{
+    background-size: 375px 375px;
+    background-position-x: 800px;
+    height: 375px;
+    background-color: aqua;
+    text-align: center;
 }
 .hero_1
 {
+    font-family: "Lato", serif;
     font-style: italic;
 }
 .hero_2
 {
-
+    font-weight: 700;
 }
 h1
 {
-
+    font-family: "Fjalla One";
 }
