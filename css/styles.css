@@ -1,14 +1,26 @@
 .hero
 {
-    background-image: url(https://z-p3-scontent.fscl20-1.fna.fbcdn.net/v/t1.0-9/122490008_182708766791980_7733747498968028733_n.jpg?_nc_cat=110&ccb=2&_nc_sid=8024bb&_nc_ohc=c6X8x5S88j8AX_f7zpo&_nc_ht=z-p3-scontent.fscl20-1.fna&oh=a28fb08e7d5fdb4ec8945daf646afe);
-}
+  
+}  
 .hero_info
 {
-    background-size: 375px 375px;
-    background-position-x: 800px;
-    height: 375px;
-    background-color: aqua;
+    height: 730px;
+    background-image: url(../images/heropic.png);
+    background-size: 550px 730px;
+    background-position-x: 900px;
+    background-repeat: no-repeat;
+    background-color: #FFF;
     text-align: center;
+}
+.heroInfo_paragraph
+{
+    background-position-y: 300px;
+    font-size: 1.5em;
+    line-height: .02em;
+}
+.heroInfo_title
+{
+    line-height: .2em;
 }
 .hero_1
 {
@@ -17,9 +29,13 @@
 }
 .hero_2
 {
+    color: #12677c;
     font-weight: 700;
 }
 h1
 {
+    color: #12677c;
     font-family: "Fjalla One";
+    font-size: 5em;
+    font-weight: 500;
 }
