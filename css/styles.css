@@ -1,26 +1,33 @@
+*{
+    margin: 0;
+}
 .hero
 {
   
 }  
 .hero_info
 {
-    height: 730px;
+    padding-top: 200px;
+    padding-left: 400px;
+    box-sizing: border-box;
+    height: 661px;
     background-image: url(../images/heropic.png);
-    background-size: 550px 730px;
+    background-size: 490px 661px;
     background-position-x: 900px;
     background-repeat: no-repeat;
     background-color: #FFF;
-    text-align: center;
+
 }
 .heroInfo_paragraph
 {
+    padding-left: 80px;
     background-position-y: 300px;
     font-size: 1.5em;
-    line-height: .02em;
+    line-height: 90px;
 }
 .heroInfo_title
 {
-    line-height: .2em;
+    line-height: 40px;
 }
 .hero_1
 {
