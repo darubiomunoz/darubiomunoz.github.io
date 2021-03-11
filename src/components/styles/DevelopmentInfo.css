@@ -1,0 +1,23 @@
+.development__body {
+    width: 90%;
+    text-align: center;
+}
+
+.development__title {
+    text-transform: uppercase;
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-option4);
+}
+
+.development__subtitle {
+    margin-bottom: var(--margin-regular);
+    font-size: var(--font-size-normal);
+    font-weight: var(--font-weight-light);
+}
+
+.development__calltoaction {
+    margin-bottom: 0;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-light);
+}
