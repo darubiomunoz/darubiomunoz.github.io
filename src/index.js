@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import reportWebVitals from 'web-vitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 
@@ -11,3 +12,5 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+reportWebVitals(console.log);
