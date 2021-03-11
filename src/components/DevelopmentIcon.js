@@ -7,7 +7,7 @@ import underDevelopment from '../assets/icons/under_development.svg';
 const DevelopmentIcon = () => {
     return(
         <figure className="img__container--development">
-            <img className="img" src={underDevelopment} loading="lazy" alt="Icon the programmer developing a this website, right now!" />
+            <img className="img" src={underDevelopment} loading="lazy" tabIndex="0" alt="Icon the programmer developing a this website, right now!" />
         </figure>
     );
 }
