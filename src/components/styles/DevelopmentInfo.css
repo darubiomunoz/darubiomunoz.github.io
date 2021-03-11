@@ -12,12 +12,22 @@
 
 .development__subtitle {
     margin-bottom: var(--margin-regular);
-    font-size: var(--font-size-normal);
+    font-size: var(--font-size-regular);
     font-weight: var(--font-weight-light);
 }
 
 .development__calltoaction {
     margin-bottom: 0;
     font-size: var(--font-size-small);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-regular);
+}
+
+.development__calltoaction:hover {
+    color: var(--color-option3);
+}
+
+@media (min-width: 600px) {
+    .development__body {
+        width: 80%;
+    }
 }
