@@ -1,24 +1,9 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          PORTFOLIO UNDER CONSTRUCTION.
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/darubiomunoz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Visit Github
-        </a>
-      </header>
-    </div>
+    <h1>App</h1>
   );
 }
 
