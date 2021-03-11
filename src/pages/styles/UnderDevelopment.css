@@ -14,6 +14,7 @@
 
 .img__container--development {
     width: 90%;
+    margin-bottom: 0;
 }
 
 .img {
@@ -28,13 +29,18 @@
 .development__title {
     text-transform: uppercase;
     font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
     color: var(--color-option4);
 }
 
 .development__subtitle {
+    margin-bottom: var(--margin-regular);
     font-size: var(--font-size-normal);
+    font-weight: var(--font-weight-light);
 }
 
 .development__calltoaction {
-    font-size: var(--font-size-regular);
+    margin-bottom: 0;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-light);
 }
