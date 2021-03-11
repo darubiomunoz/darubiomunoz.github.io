@@ -3,15 +3,38 @@
     max-width: 100vw;
     height: 100%;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: var(--color-option1);
     background: -webkit-linear-gradient(to left, var(--color-option5), var(--color-option1));
     background: linear-gradient(to left, var(--color-option5), var(--color-option1));
 }
 
 .img__container--development {
-    width: 80%;
+    width: 90%;
 }
 
 .img {
     width: 100%;
+}
+
+.development__body {
+    width: 90%;
+    text-align: center;
+}
+
+.development__title {
+    text-transform: uppercase;
+    font-size: var(--font-size-medium);
+    color: var(--color-option4);
+}
+
+.development__subtitle {
+    font-size: var(--font-size-normal);
+}
+
+.development__calltoaction {
+    font-size: var(--font-size-regular);
 }

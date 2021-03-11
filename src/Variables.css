@@ -5,4 +5,11 @@
     --color-option4: #05F4B7;
     --color-option5: #000;
     --color-option6: #FFF;
+
+    --font-size-small: 1.0rem;
+    --font-size-regular: 1.2rem;
+    --font-size-normal: 1.6rem;
+    --font-size-medium: 2.4rem;
+    --font-size-large: 3.2rem;
+    --font-size-extralarge: 4.8rem;
 }

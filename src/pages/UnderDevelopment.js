@@ -11,7 +11,7 @@ const UnderDevelopment = () => {
             </figure>
             <section className="development__body">
                 <h1 className="development__title">Coming Soon</h1>
-                <h3 className="development__subtitle">The website is under development</h3>
+                <h4 className="development__subtitle">The website is under development</h4>
                 <p className="development__calltoaction">In the meantime visit my <a href="https://github.com/darubiomunoz" target="_blank" rel="noreferrer">GitHub Account</a></p>
             </section>
         </main>
