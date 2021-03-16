@@ -4,14 +4,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline-color: var(--color-option3);                        
+    outline-color: var(--color-option3);
+    color: var(--color-option2);        
 }
 
 body {
     font-size: 62.5%;
     font-family: var(--font-family);
-    color: var(--color-option2);
-    
 }
 
 a {
