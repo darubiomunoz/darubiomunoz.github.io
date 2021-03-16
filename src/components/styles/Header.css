@@ -101,9 +101,4 @@
         font-size: var(--font-size-normal);
         color: var(--color-option2);
     }
-I
-    .nav-link:hover,
-    .nav-link:focus {
-        color: var(--color-option4);
-    }
 }

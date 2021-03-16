@@ -20,10 +20,11 @@
     margin-bottom: 0;
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
+    color: var(--color-option4);
 }
 
 .development__calltoaction:hover {
-    color: var(--color-option3);
+    color: var(--color-option2);
 }
 
 @media (min-width: 600px) {
