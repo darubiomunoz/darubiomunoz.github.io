@@ -1,6 +1,7 @@
 .navbar {
     height: 13vh;
     padding: 0;
+    z-index: var(--zindex-dropdown);
 }
 
 .container-fluid {
@@ -60,7 +61,7 @@
     padding: 1rem 0;
     font-style: normal;
     font-size: var(--font-size-regular);
-    font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-bold);
     color: #12151F;
 }
 
@@ -99,6 +100,7 @@
     
     .nav-link {
         font-size: var(--font-size-normal);
+        font-weight: var(--font-weight-light);
         color: var(--color-option2);
     }
 }
