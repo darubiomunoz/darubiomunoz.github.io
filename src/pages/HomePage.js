@@ -16,6 +16,11 @@ const HomePage = () => {
                 <img className="homepage__background" src={backgroundSmall} alt="background images" />
             </picture>
             <Header />
+            <div className="homepage__hero">
+                <p className="homepage__title">Welcome,</p>
+                <p className="homepage__title color-option4">I'm Diego Rubio</p>
+                <p className="homepage__title margin-bottom">A Front-end Developer.</p>
+            </div>
         </div>
     );
 };
