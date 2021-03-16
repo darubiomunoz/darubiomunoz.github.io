@@ -13,7 +13,7 @@ const HomePage = () => {
                 <source srcSet={backgroundLarge} media="(min-width: 0px)"></source>
                 <source srcSet={backgroundMedium} media="(min-width: 500px)"></source>
                 <source srcSet={backgroundSmall} media="(min-width: 1024px)"></source>
-                <img className="homepage__background" src={backgroundSmall} alt="background images" />
+                <img className="homepage__background" src={backgroundSmall} loading="lazy" alt="background images" />
             </picture>
             <Header />
             <div className="homepage__hero">
