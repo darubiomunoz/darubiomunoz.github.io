@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles/AboutMe.css';
 
-import backgroundSmall from '../assets/images/homepage-background-small.jpg';
-import backgroundMedium from '../assets/images/homepage-background-medium.jpg';
-import backgroundLarge from '../assets/images/homepage-background-large.jpg';
+import backgroundSmall from '../assets/images/aboutme-background-small.jpg';
+import backgroundMedium from '../assets/images/aboutme-background-medium.jpg';
+import backgroundLarge from '../assets/images/aboutme-background-large.jpg';
 import Header from '../components/Header';
 
 const AboutMe = () => {
