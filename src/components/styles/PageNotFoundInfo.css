@@ -1,0 +1,34 @@
+.pagenotfound__body {
+    width: 90%;
+    text-align: center;
+}
+
+.pagenotfound__title {
+    text-transform: uppercase;
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-option4);
+}
+
+.pagenotfound__subtitle {
+    margin-bottom: var(--margin-regular);
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-light);
+}
+
+.pagenotfound__calltoaction {
+    margin-bottom: 0;
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-option4);
+}
+ 
+.pagenotfound__calltoaction:hover {
+    color: var(--color-option2);
+}
+
+@media (min-width: 600px) {
+    .pagenotfound__body {
+        width: 80%;
+    }
+}

@@ -1,0 +1,20 @@
+.img__container--pagenotfound {
+    width: 70%;
+    margin-bottom: 0;
+}
+
+.img {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .img__container--pagenotfound {
+        width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .img__container--pagenotfound {
+        width: 40%;
+    }
+}

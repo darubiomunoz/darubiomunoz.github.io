@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles/DevelopmentIcon.css';
 
-import underDevelopment from '../assets/icons/under_development.svg';
+import underDevelopment from '../assets/icons/under-development.svg';
 
 
 const DevelopmentIcon = () => {
