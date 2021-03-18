@@ -23,10 +23,15 @@
     z-index: var(--zindex-background);
 }
 
-.color-option4 {
-    color: var(--color-option4);
+.homepage__link--icon {
+    width: 100%;
+    position: absolute;
+    z-index: var(--zindex-dropdown);
+    bottom: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
-.margin-bottom {
-    margin-bottom: 2rem;
+.homepage__icon {
+    width: 3rem;
 }

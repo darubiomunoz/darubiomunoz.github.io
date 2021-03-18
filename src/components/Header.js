@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Link } from 'react-router-dom';
 import './styles/Header.css';
 
 import Logo from '../assets/images/logo.svg';
@@ -38,9 +37,9 @@ const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg position-sticky top-0 start-0 end-100">
             <div className="container-fluid d-flex justify-content-between align-items-center">
-                <Link className="navbar-brand" to="/">
+                <a className="navbar-brand" href="/">
                     <img className="navbar__logo" src={clicked ? LogoClicked : Logo} loading="lazy" alt="Diego Rubio website's Logo" />
-                </Link>
+                </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" onClick={() => handleClick()}>
                     <img className="navbar__menuicon" src={HamburgerIcon} loading="lazy" alt="Press to show the website pages" />
                 </button>
@@ -48,19 +47,19 @@ const Header = () => {
                     <img className={`navbar__closeicon ${screen >= 992 ? 'invisible' : ''}`} src={CloseIcon} loading="lazy" alt="Press to hide the website pages" onClick={() => handleClick()} />
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                            <a className="nav-link active" aria-current="page" href="/">Home</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/aboutme">About Me</Link>
+                            <a className="nav-link" href="#aboutme">About Me</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                            <a className="nav-link" href="#portfolio">Portfolio</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/resume">Resume</Link>
+                            <a className="nav-link" href="#resume">Resume</a>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                            <a className="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>

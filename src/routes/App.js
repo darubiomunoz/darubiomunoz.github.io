@@ -12,17 +12,10 @@ import Page404 from '../pages/Page404';
 
 const App = () => {
   return (
-    <Router>
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route exact path="/aboutme" component={AboutMe} />
-        <Route exact path="/portfolio" component={UnderDevelopment} />
-        <Route exact path="/resume" component={UnderDevelopment} />
-        <Route exact path="/contact" component={UnderDevelopment} />
-        <Route exact path="/underdevelopment" component={UnderDevelopment} />
-        <Route component={Page404} />
-      </Switch>
-    </Router>
+    <>
+      <HomePage />
+      <AboutMe />
+    </>
   );
 }
 

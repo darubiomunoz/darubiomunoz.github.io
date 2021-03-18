@@ -4,7 +4,6 @@ import './styles/AboutMe.css';
 import backgroundSmall from '../assets/images/aboutme-background-small.jpg';
 import backgroundMedium from '../assets/images/aboutme-background-medium.jpg';
 import backgroundLarge from '../assets/images/aboutme-background-large.jpg';
-import Header from '../components/Header';
 
 const ComponentLogic = () => {
     const screen = window.screen.width;
@@ -16,14 +15,13 @@ const AboutMe = () => {
     const { screen } = ComponentLogic();
 
     return(
-        <div className="aboutme">
+        <div id="aboutme" className="aboutme">
             <picture className="aboutme__container">
                 <source srcSet={backgroundLarge} media="(min-width: 0px)"></source>
                 <source srcSet={backgroundMedium} media="(min-width: 500px)"></source>
                 <source srcSet={backgroundSmall} media="(min-width: 1024px)"></source>
                 <img className="aboutme__background" aria-hidden="true" src={backgroundSmall} loading="lazy" alt="background images" />
             </picture>
-            <Header />
             <div className="aboutme__hero">
                 <h1 className={`aboutme__title color-option4 ${screen >= 280 ? 'mt-5' : ''}`} tabIndex="0">About Me</h1>
                 <p className="aboutme__text mt-3" tabIndex="0">I really enjoy learning languages and I've been studying a lot of French and English the last couple of years, and I wanted to start learning German or Mandarin Chinese in 2020. However, I like to learn languages by immersion, in other words, by travelling and living in places where people speak those language but the last year I could not travel so my curiosity spiked and I started looking for options to learn new things.</p>

@@ -1,4 +1,4 @@
-.homepage__hero {
+.hero {
     width: 90%;
     height: 87vh;
     margin: 0 auto;
@@ -11,14 +11,14 @@
     text-align: center;
 }
 
-.homepage__title {
+.hero__title {
     margin: 0;
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-large);
     font-weight: var(--font-weight-bolder);
     color: var(--color-option2);
 }
 
-.homepage__text {
+.hero__text {
     width: 80%;
     margin: 0;
     padding-bottom: 1.5rem;
@@ -28,22 +28,55 @@
     border-bottom: 1px solid var(--color-option2);
 }
 
-.homepage__list--social {
+.hero__list--social {
     width: 50%;
     margin-top: 1.5rem;
     display: flex;
     justify-content: space-evenly;
 }
 
-.homepage__icon--social {
+.hero__icon--social {
     width: 1.5rem;
 }
 
+@media screen and (min-width: 280px) {
+    .hero__title {
+        margin-bottom: 2rem;
+    }
+
+    .hero__text {
+        line-height: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .hero__list--social {
+        margin-top: 2.5rem;
+    }
+
+    .hero__icon--social {
+        width: 2rem;
+    }
+}
+
+@media screen and (min-width: 275px) {
+    .hero__icon--social {
+        width: 3rem;
+    }
+}
+
+@media screen and (min-width: 410px) {
+    .hero__text {
+        font-size: var(--font-size-normal);
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .hero__title {
+        font-size: var(--font-size-extralarge);
+        font-weight: var(--font-weight-bold);
+    }
+}
+
 @media (min-width: 992px) {
-    .homepage__hero {
-        justify-content: center;
-    }
-    .homepage__title {
-        font-size: var(--font-size-large);
-    }
+    
 }

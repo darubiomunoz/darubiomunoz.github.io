@@ -6,8 +6,16 @@ import backgroundMedium from '../assets/images/homepage-background-medium.jpg';
 import backgroundLarge from '../assets/images/homepage-background-large.jpg';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
+import DownArrow from '../assets/icons/down-arrow.svg';
+
+const ComponentLogic = () => {
+    const screen = window.screen.width;
+
+    return { screen }
+}
 
 const HomePage = () => {
+    const { screen } = ComponentLogic();
     return(
         <div className="homepage">
             <picture className="homepage__container">
@@ -18,6 +26,11 @@ const HomePage = () => {
             </picture>
             <Header />
             <Hero />
+            {screen >= 992 &&
+                <a className="homepage__link--icon" href="#aboutme">
+                    <img className="homepage__icon" src={DownArrow} alt="Down Arrow Icon" />
+                </a>
+            }
         </div>
     );
 };
