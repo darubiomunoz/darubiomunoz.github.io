@@ -41,7 +41,7 @@
     height: 100vh;
     top: 0;
     right: 0;
-    background-color: #05F4B7;
+    background-color: var(--color-option4);
 }
 
 .navbar__closeicon {
@@ -62,7 +62,8 @@
     font-style: normal;
     font-size: var(--font-size-regular);
     font-weight: var(--font-weight-bold);
-    color: #12151F;
+    color: var(--color-option2);
+    border-bottom: 1px solid var(--color-option2);
 }
 
 .invisible {
