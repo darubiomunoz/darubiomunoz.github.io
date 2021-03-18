@@ -78,5 +78,7 @@
 }
 
 @media (min-width: 992px) {
-    
+    .hero__text {
+        width: 60%;
+    }
 }
