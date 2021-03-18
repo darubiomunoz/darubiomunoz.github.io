@@ -23,39 +23,10 @@
     z-index: var(--zindex-background);
 }
 
-.homepage__hero {
-    width: 100%;
-    height: 87vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    z-index: var(--zindex-normal);
-}
-
-.homepage__title {
-    width: fit-content;
-    height: fit-content;
-    margin-bottom: 0;
-    padding-left: 2rem;
-    z-index: var(--zindex-normal);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-bold);
-    color: var(--color-option2);
-}
-
 .color-option4 {
     color: var(--color-option4);
 }
 
 .margin-bottom {
     margin-bottom: 2rem;
-}
-
-@media (min-width: 992px) {
-    .homepage__hero {
-        justify-content: center;
-    }
-    .homepage__title {
-        font-size: var(--font-size-large);
-    }
 }

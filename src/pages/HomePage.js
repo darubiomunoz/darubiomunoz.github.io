@@ -5,6 +5,7 @@ import backgroundSmall from '../assets/images/homepage-background-small.jpg';
 import backgroundMedium from '../assets/images/homepage-background-medium.jpg';
 import backgroundLarge from '../assets/images/homepage-background-large.jpg';
 import Header from '../components/Header';
+import Hero from '../components/Hero';
 
 const HomePage = () => {
     return(
@@ -16,11 +17,7 @@ const HomePage = () => {
                 <img className="homepage__background" src={backgroundSmall} loading="lazy" alt="background images" />
             </picture>
             <Header />
-            <div className="homepage__hero">
-                <p className="homepage__title" tabIndex="0">Welcome,</p>
-                <p className="homepage__title color-option4" tabIndex="0">I'm Diego Rubio</p>
-                <p className="homepage__title margin-bottom" tabIndex="0">A Front-end Developer.</p>
-            </div>
+            <Hero />
         </div>
     );
 };
