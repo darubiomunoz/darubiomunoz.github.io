@@ -15,6 +15,7 @@ const App = () => {
     <div className="app">
       <HomePage />
       <AboutMe />
+      <Portfolio />
     </div>
   );
 }
