@@ -1,0 +1,29 @@
+.card {
+    width: 85%;
+    border: none;
+    background-color: transparent;
+}
+
+.card-img-top {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body {
+    padding: 0;
+    text-align: center;
+}
+
+.card-text {
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-normal);
+    color: var(--color-option3);
+}
+
+.quotes {
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-option4);
+}

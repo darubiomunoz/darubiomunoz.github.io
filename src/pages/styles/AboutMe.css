@@ -15,20 +15,3 @@
     padding-bottom: .5rem;
     border-bottom: 1px solid var(--color-option4);
 }
-
-.card {
-    width: 85%;
-    border: none;
-    background-color: transparent;
-}
-
-.card-img-top {
-    width: 10rem;
-    height: 10rem;
-    object-fit: cover;
-    object-position: center;
-}
-
-.card-body {
-    padding: 0;
-}
