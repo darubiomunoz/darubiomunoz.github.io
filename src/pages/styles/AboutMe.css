@@ -1,12 +1,27 @@
 .aboutme {
     width: 100%;
     height: 100%;
-    position: relative;
-    z-index: var(--zindex-normal);
+    padding: 7rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: var(--color-option1);
+    
+}
+
+.aboutme__title {
+    margin: 0;
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--color-option4);
 }
 
 .card {
     width: 85%;
+    border: none;
     background-color: transparent;
+}
+
+.card-img-top {
+    width: 50%;
 }

@@ -13,7 +13,7 @@
 
 .hero__title {
     margin: 0;
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-normal);
     font-weight: var(--font-weight-bolder);
     color: var(--color-option2);
 }
@@ -23,7 +23,7 @@
     margin: 0;
     padding-bottom: 1.5rem;
     line-height: 1.75rem;
-    font-size: var(--font-size-regular);
+    font-size: var(--font-size-small);
     font-weight: var(--font-weight-light);
     border-bottom: 1px solid var(--color-option2);
 }
@@ -42,11 +42,13 @@
 @media screen and (min-width: 280px) {
     .hero__title {
         margin-bottom: 2rem;
+        font-size: var(--font-size-medium);
     }
 
     .hero__text {
         line-height: 2.5rem;
         padding-bottom: 2.5rem;
+        font-size: var(--font-size-regular);
     }
 
     .hero__list--social {
