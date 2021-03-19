@@ -28,7 +28,7 @@ const HomePage = () => {
             <Hero />
             {screen >= 992 &&
                 <a className="homepage__link--icon" href="#aboutme">
-                    <img className="homepage__icon" src={DownArrow} alt="Down Arrow Icon" />
+                    <img className="homepage__icon" src={DownArrow} alt="Down Arrow. Press enter to know more about me. " />
                 </a>
             }
         </div>
