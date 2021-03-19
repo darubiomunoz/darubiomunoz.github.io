@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles/AboutMe.css';
 
+import ProfileImage from '../assets/images/profile-image.jpg';
+
 const ComponentLogic = () => {
     const screen = window.screen.width;
 
@@ -16,8 +18,8 @@ const AboutMe = () => {
             That's how I came across with programming languages. I realized that they aren't so different to traditional languages so I could dive into studying them using the same principle of immersion by building things.
             So far I'm very comfortable using the next technologies: */}
             <h3 className="aboutme__title">About Me</h3>
-            <div className="card mt-5">
-                <img src="..." className="card-img-top" alt="..." />
+            <div className="card mt-5 d-flex flex-column align-items-center">
+                <img src={ProfileImage} className="card-img-top rounded-circle mb-5" alt="Diego Rubio's profile avatar" />
                 <div className="card-body">
                     <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
