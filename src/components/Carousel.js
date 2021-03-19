@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/styles/components/Carousel.scss';
+import './styles/Carousel.css';
 
 const Carousel = ({ children }) => {
     return (

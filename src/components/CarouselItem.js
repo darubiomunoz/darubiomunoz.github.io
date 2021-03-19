@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import '../assets/styles/components/CarouselItem.scss';
+import './styles/CarouselItem.css';
 
-import playIcon from '../assets/static/play-icon.png';
-import plusIcon from '../assets/static/plus-icon.png';
+import playIcon from '../assets/icons/icon-github.svg';
+import plusIcon from '../assets/icons/icon-linkedin.svg';
 
 const CarouselItem = ({ cover, title, year, contentRating, duration }) => {
     return (
@@ -19,16 +18,8 @@ const CarouselItem = ({ cover, title, year, contentRating, duration }) => {
                     {`${year} ${contentRating} ${duration} minutos`}
                 </p>
             </div>
-        </div>
+        </div> 
     );
-}
-
-CarouselItem.propTypes = {
-    cover: PropTypes.string,
-    title: PropTypes.string,
-    year: PropTypes.number,
-    contentRating: PropTypes.string,
-    duration: PropTypes.number,
 }
 
 export default CarouselItem;
