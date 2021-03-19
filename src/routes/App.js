@@ -12,10 +12,10 @@ import Page404 from '../pages/Page404';
 
 const App = () => {
   return (
-    <>
+    <div className="app">
       <HomePage />
       <AboutMe />
-    </>
+    </div>
   );
 }
 
