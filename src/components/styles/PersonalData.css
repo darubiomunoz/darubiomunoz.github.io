@@ -17,6 +17,7 @@
 }
 
 .card-text {
+    line-height: 1.8rem;
     font-size: var(--font-size-regular);
     font-weight: var(--font-weight-normal);
     color: var(--color-option3);
@@ -26,4 +27,37 @@
     font-size: var(--font-size-regular);
     font-weight: var(--font-weight-bold);
     color: var(--color-option4);
+}
+
+@media screen and (min-width: 410px) {
+    .card-img-top {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .card-text {
+        line-height: 2.75rem;
+        font-size: var(--font-size-normal);
+    }
+    
+    .quotes {
+        font-size: var(--font-size-normal);
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        width: 60%;
+    }
+
+    .card-img-top {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .card-text {
+        line-height: 3rem;
+    }
 }

@@ -15,3 +15,9 @@
     padding-bottom: .5rem;
     border-bottom: 1px solid var(--color-option4);
 }
+
+@media screen and (min-width: 540px) {
+    .aboutme__title {
+        font-size: var(--font-size-large);
+    }
+}
