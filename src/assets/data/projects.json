@@ -1,83 +1,83 @@
 [
-    {
-      "id": 9,
-      "cover": "https://i.postimg.cc/43jZj59r/portfolio-9.jpg",
-      "title": "Slider",
-      "alt": "Screenshot of the project",
-      "description": "Slider component created with react.JS, bootstrap, CSS, mobile first, responsive design, accessibility, BEM, JavaScript, JSX.",
-      "link": "https://darubiomunoz.github.io/portfolio-09-testimonialslidercomponent/",
-      "code": "https://github.com/darubiomunoz/portfolio-09-testimonialslidercomponent"
-    },
-    {
-      "id": 8,
-      "cover": "https://i.postimg.cc/KjZWWkJ6/portfolio-8.jpg",
-      "title": "Article Preview",
-      "alt": "Screenshot of the project",
-      "description": "Component built with react.JS for a preview of articles that could be used for blogs for example.",
-      "link": "https://darubiomunoz.github.io/portfolio-08-articlepreviewcomponent/",
-      "code": "https://github.com/darubiomunoz/portfolio-08-articlepreviewcomponent"
-    },
-    {
-      "id": 7,
-      "cover": "https://i.postimg.cc/FsC6PKc6/portfolio-7.jpg",
-      "title": "FAQ",
-      "alt": "Screenshot of the project",
-      "description": "Page create with react.Js as many technology for user's FAQ with modern design.",
-      "link": "https://darubiomunoz.github.io/portfolio-07-faqaccordioncard/",
-      "code": "https://github.com/darubiomunoz/portfolio-07-faqaccordioncard"
-    },
-    {
-      "id": 6,
-      "cover": "https://i.postimg.cc/13LjQYvc/portfolio-6.jpg",
-      "title": "Profile",
-      "alt": "Screenshot of the project",
-      "description": "Element built with React.JS for a profile card component.",
-      "link": "https://darubiomunoz.github.io/portfolio-06-profilecardcomponent/",
-      "code": "https://github.com/darubiomunoz/portfolio-06-profilecardcomponent"
-    },
-    {
-      "id": 5,
-      "cover": "https://i.postimg.cc/rwdb0tsJ/portfolio-5.jpg",
-      "title": "Original Trombone",
-      "alt": "Screenshot of the project",
-      "description": "Simple landing page for a product made in HTML and SASS.",
-      "link": "https://darubiomunoz.github.io/portfolio-05-productlandingpage/",
-      "code": "https://github.com/darubiomunoz/portfolio-05-productlandingpage"
-    },
-    {
-      "id": 4,
-      "cover": "https://i.postimg.cc/26dgjRyN/portfolio-4.jpg",
-      "title": "Survey Form",
-      "alt": "Screenshot of the project",
-      "description": "Survey form, made with HTML and CSS. Validation made using HTML attributes. Also implementing responsive design , git and accessibility.",
-      "link": "https://darubiomunoz.github.io/portfolio-04-surveyform/",
-      "code": "https://github.com/darubiomunoz/portfolio-04-surveyform"
-    },
-    {
-      "id": 3,
-      "cover": "https://i.postimg.cc/1XBxBh1r/portfolio-3.jpg",
-      "title": "Dr. N. Bourlag",
-      "alt": "Screenshot of the project",
-      "description": "Basic tribute landing page built with HTML and SASS.",
-      "link": "https://darubiomunoz.github.io/portfolio-03-tributepage/",
-      "code": "https://github.com/darubiomunoz/portfolio-03-tributepage"
-    },
-    {
-        "id": 2,
-        "cover": "https://i.postimg.cc/yxm6zb4D/portfolio-2.jpg",
-        "title": "Digital Clock",
-        "alt": "Screenshot of the project",
-        "description": "Clock made with HTML, CSS and Javascript. Also implementing git, and responsive design.",
-        "link": "https://darubiomunoz.github.io/portfolio-02-clock/",
-        "code": "https://github.com/darubiomunoz/portfolio-02-clock"
-    },
-    {
-      "id": 1,
-      "cover": "https://i.postimg.cc/mg8DDJcM/portfolio-1.png",
-      "title": "Stopwatch",
-      "alt": "Screenshot of the project",
-      "description": "Stopwatch made with HTML, CSS and JavaScript. Implementing Git, Github, and Responsive Design.",
-      "link": "https://darubiomunoz.github.io/portfolio-01-stopwatch/",
-      "code": "https://github.com/darubiomunoz/portfolio-01-stopwatch"
-    }
+  {
+    "id": 9,
+    "cover": "https://i.postimg.cc/43jZj59r/portfolio-9.jpg",
+    "title": "Slider",
+    "alt": "Screenshot of the slider project",
+    "description": "Component built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-09-testimonialslidercomponent/",
+    "code": "https://github.com/darubiomunoz/portfolio-09-testimonialslidercomponent"
+  },
+  {
+    "id": 8,
+    "cover": "https://i.postimg.cc/KjZWWkJ6/portfolio-8.jpg",
+    "title": "Article Preview",
+    "alt": "Screenshot of the article preview project",
+    "description": "Component built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-08-articlepreviewcomponent/",
+    "code": "https://github.com/darubiomunoz/portfolio-08-articlepreviewcomponent"
+  },
+  {
+    "id": 7,
+    "cover": "https://i.postimg.cc/FsC6PKc6/portfolio-7.jpg",
+    "title": "FAQ",
+    "alt": "Screenshot of the FAQ project",
+    "description": "Page built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-07-faqaccordioncard/",
+    "code": "https://github.com/darubiomunoz/portfolio-07-faqaccordioncard"
+  },
+  {
+    "id": 6,
+    "cover": "https://i.postimg.cc/13LjQYvc/portfolio-6.jpg",
+    "title": "Profile",
+    "alt": "Screenshot of the profile project",
+    "description": "Component built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-06-profilecardcomponent/",
+    "code": "https://github.com/darubiomunoz/portfolio-06-profilecardcomponent"
+  },
+  {
+    "id": 5,
+    "cover": "https://i.postimg.cc/rwdb0tsJ/portfolio-5.jpg",
+    "title": "Original Trombone",
+    "alt": "Screenshot of the original trombone project",
+    "description": "Page built with HTML, SASS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-05-productlandingpage/",
+    "code": "https://github.com/darubiomunoz/portfolio-05-productlandingpage"
+  },
+  {
+    "id": 4,
+    "cover": "https://i.postimg.cc/26dgjRyN/portfolio-4.jpg",
+    "title": "Survey Form",
+    "alt": "Screenshot of the survey form project",
+    "description": "Page built with HTML, SASS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-04-surveyform/",
+    "code": "https://github.com/darubiomunoz/portfolio-04-surveyform"
+  },
+  {
+    "id": 3,
+    "cover": "https://i.postimg.cc/1XBxBh1r/portfolio-3.jpg",
+    "title": "Dr. N. Bourlag",
+    "alt": "Screenshot of the Dr. Norman Bourlag project",
+    "description": "Page built with HTML, SASS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-03-tributepage/",
+    "code": "https://github.com/darubiomunoz/portfolio-03-tributepage"
+  },
+  {
+    "id": 2,
+    "cover": "https://i.postimg.cc/yxm6zb4D/portfolio-2.jpg",
+    "title": "Digital Clock",
+    "alt": "Screenshot of the digital clock project",
+    "description": "Page built with HTML, CSS, JavaScript, Mobile First, Responsive Design.",
+    "link": "https://darubiomunoz.github.io/portfolio-02-clock/",
+    "code": "https://github.com/darubiomunoz/portfolio-02-clock"
+  },
+  {
+    "id": 1,
+    "cover": "https://i.postimg.cc/mg8DDJcM/portfolio-1.png",
+    "title": "Stopwatch",
+    "alt": "Screenshot of the stopwatch project",
+    "description": "Page built with HTML, CSS, JavaScript, Mobile First, Responsive Design.",
+    "link": "https://darubiomunoz.github.io/portfolio-01-stopwatch/",
+    "code": "https://github.com/darubiomunoz/portfolio-01-stopwatch"
+  }
 ]
