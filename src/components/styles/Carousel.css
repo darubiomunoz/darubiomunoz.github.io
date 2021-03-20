@@ -24,13 +24,15 @@
   transition: 450ms transform, 450ms -webkit-transform;
 }
 
-.carousel__container:hover .carousel-item {
+.carousel__container:hover .carousel-item,
+.carousel__container:focus .carousel-item {
   opacity: 0.75;
 }
 
-.carousel__container:hover .carousel-item:hover {
+.carousel__container:hover .carousel-item:hover,
+.carousel__container:focus .carousel-item {
   opacity: 1;
-  transform: scale(1.5);
+  transform: scale(1.5);  
   -webkit-transform: scale(1.5);
 }
 

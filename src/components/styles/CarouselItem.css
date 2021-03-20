@@ -12,7 +12,8 @@
   -webkit-transform-origin: center left;
 }
 
-.carousel-item:hover ~ .carousel-item {
+.carousel-item:hover ~ .carousel-item,
+.carousel-item:focus ~ .carousel-item {
   transform: translate3d(10rem, 0, 0);
   -webkit-transform: translate3d(10rem, 0, 0);
 }
@@ -52,7 +53,8 @@
   margin-right: 0.5rem;
 }
 
-.carousel-item:hover .carousel-item__details {
+.carousel-item:hover .carousel-item__details,
+.carousel-item:focus .carousel-item__details {
   opacity: 1;
 }
 
