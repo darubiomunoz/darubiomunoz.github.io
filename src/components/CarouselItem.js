@@ -34,7 +34,7 @@ const CarouselItem = ({ id, cover, title, description, link, code }) => {
 {/*                     {`${year} ${contentRating} ${duration} minutos`} */}
                 </p>
             </div>
-        </div> 
+        </div>
     );
 }
 
