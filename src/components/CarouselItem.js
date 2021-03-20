@@ -52,6 +52,7 @@ const CarouselItem = () => {
             className="carousel-item__img"
             src={data.cover}
             tabIndex="0"
+            loading="lazy"
             alt={data.alt}
           />
           <div
@@ -71,6 +72,7 @@ const CarouselItem = () => {
                   className="carousel-item__details--img"
                   aria-live={`${isFocused ? "polite" : "off"}`}
                   src={GithubIcon}
+                  loading="lazy"
                   alt="Github icon. Press enter to go to the project repository in github."
                 />
               </a>
@@ -85,6 +87,7 @@ const CarouselItem = () => {
                   className="carousel-item__details--img"
                   aria-live={`${isFocused ? "polite" : "off"}`}
                   src={SiteIcon}
+                  loading="lazy"
                   alt="Website icon. Press enter to go to the project page."
                 />
               </a>
