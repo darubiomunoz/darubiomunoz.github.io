@@ -79,3 +79,32 @@
   white-space: normal;
   color: var(--color-option2);
 }
+
+@media screen and (min-width: 410px) {
+  .carousel-item {
+    min-width: 24rem;
+    min-height: 12rem;
+    margin: 0 2rem;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .carousel-item {
+    min-width: 28rem;
+    min-height: 14rem;
+    margin: 0 3rem;
+  }
+
+  .carousel-item__details--img {
+    width: 2rem;
+    margin-right: 0.75rem;
+  }
+
+  .carousel-item__details--title {
+    font-size: var(--font-size-normal);
+  }
+
+  .carousel-item__details--description {
+    font-size: var(--font-size-regular);
+  }
+}

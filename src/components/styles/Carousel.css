@@ -33,3 +33,9 @@
   transform: scale(1.5);
   -webkit-transform: scale(1.5);
 }
+
+@media screen and (min-width: 410px) {
+  .carousel__container {
+    padding: 4rem 0;
+  }
+}
