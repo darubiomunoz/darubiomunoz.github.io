@@ -1,21 +1,27 @@
 .carousel {
-    width: 100%;
-    position: relative;
-    overflow: scroll;
-    overflow-y: hidden;
+  width: 100%;
+  position: relative;
+  overflow: scroll;
+  overflow-y: hidden;
 }
-.carousel:: ::-webkit-scrollbar {
-    overflow: scroll;
-    overflow-y: hidden;
+
+.carousel::-webkit-scrollbar {
+  display: none;
+  width: 1.5rem;
+  background-color: var(--color-option7);
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background-color: var(--color-option4);
 }
 
 .carousel__container {
-    padding: 3rem 0;
-    display: flex;
-    white-space: nowrap;
-    transition: 450ms -webkit-transform;
-    transition: 450ms transform;
-    transition: 450ms transform, 450ms -webkit-transform;
+  padding: 3rem 0;
+  display: flex;
+  white-space: nowrap;
+  transition: 450ms -webkit-transform;
+  transition: 450ms transform;
+  transition: 450ms transform, 450ms -webkit-transform;
 }
 
 .carousel__container:hover .carousel-item {
