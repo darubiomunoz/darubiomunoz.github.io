@@ -7,7 +7,7 @@
 
 .carousel::-webkit-scrollbar {
   display: none;
-  width: 1.5rem;
+  width: 1rem;
   background-color: var(--color-option7);
 }
 
@@ -37,5 +37,15 @@
 @media screen and (min-width: 410px) {
   .carousel__container {
     padding: 4rem 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .carousel__container {
+    padding: 4.5rem 0;
+  }
+
+  .carousel::-webkit-scrollbar {
+    display: block;
   }
 }
