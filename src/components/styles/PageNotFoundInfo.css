@@ -1,13 +1,15 @@
 .pagenotfound__body {
     width: 90%;
     text-align: center;
+    position: relative;
+    z-index: var(--zindex-normal);
 }
 
 .pagenotfound__title {
     text-transform: uppercase;
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-bold);
-    color: var(--color-option4);
+    color: var(--color-option2);
 }
 
 .pagenotfound__subtitle {
@@ -20,11 +22,11 @@
     margin-bottom: 0;
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-regular);
-    color: var(--color-option4);
+    color: var(--color-option2);
 }
  
 .pagenotfound__calltoaction:hover {
-    color: var(--color-option2);
+    color: var(--color-option4);
 }
 
 @media (min-width: 600px) {
