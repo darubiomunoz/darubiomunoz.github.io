@@ -1,20 +1,22 @@
 .img__container--development {
-    width: 70%;
-    margin-bottom: 0;
+  width: 70%;
+  margin-bottom: 0;
+  position: relative;
+  z-index: var(--zindex-normal);
 }
 
 .img {
-    width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 600px) {
-    .img__container--development {
-        width: 60%;
-    }
+  .img__container--development {
+    width: 60%;
+  }
 }
 
 @media (min-width: 1024px) {
-    .img__container--development {
-        width: 40%;
-    }
+  .img__container--development {
+    width: 40%;
+  }
 }

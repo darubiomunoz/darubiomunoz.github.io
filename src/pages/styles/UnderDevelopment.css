@@ -1,14 +1,30 @@
 .development {
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.development__container {
+    width: inherit;
+    max-width: inherit;
+    height: inherit;
+    min-height: inherit;
+    position: absolute;
+    z-index: var(--zindex-background);
+}
+
+.development__background {
     width: 100%;
-    max-width: 100vw;
     height: 100%;
-    min-height: 100vh;
-    padding: var(--margin-large) 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: var(--color-option1);
-    background: -webkit-linear-gradient(to left, var(--color-option5), var(--color-option1));
-    background: linear-gradient(to left, var(--color-option5), var(--color-option1));
+    position: absolute;
+    object-position: center;
+    object-fit: cover;
+    z-index: var(--zindex-background);
 }
