@@ -83,8 +83,11 @@ const EducationSkills = () => {
             Web Accessibility
           </p>
           <p className="educationskills__skill" tabIndex="0">
-            NPM
+            Git & Github
           </p>
+          <p className="educationskills__skill" tabIndex="0">
+            NPM
+          </>
           <p className="educationskills__skill" tabIndex="0">
             SPA
           </p>
