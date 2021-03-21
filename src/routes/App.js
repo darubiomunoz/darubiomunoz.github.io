@@ -7,6 +7,7 @@ import AboutMe from '../pages/AboutMe';
 import Portfolio from '../pages/Portfolio';
 import EducationSkills from '../pages/EducationSkills';
 import Contact from '../pages/Contact';
+import Footer from '../components/Footer';
 import UnderDevelopment from '../pages/UnderDevelopment';
 import Page404 from '../pages/Page404';
 
@@ -18,6 +19,7 @@ const App = () => {
       <Portfolio />
       <EducationSkills />
       <Contact />
+      <Footer />
     </div>
   );
 }
