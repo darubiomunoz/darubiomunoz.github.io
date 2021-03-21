@@ -60,7 +60,7 @@
     }
 }
 
-@media screen and (min-width: 275px) {
+@media screen and (min-width: 375px) {
     .hero__icon--social {
         width: 3rem;
     }
