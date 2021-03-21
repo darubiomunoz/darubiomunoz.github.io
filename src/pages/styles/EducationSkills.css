@@ -38,10 +38,10 @@
 }
 
 .educationskills__listitem--education {
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin: 1.5rem 0;
-  padding: .5rem;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,10 +69,11 @@
 }
 
 .educationskills__listitem--skill {
-  width: 100%;
+  width: 80%;
   height: 100%;
   margin: 1.5rem 0;
-  padding: .5rem;
+  margin-bottom: 0;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,10 +96,31 @@
     line-height: 2.75rem;
     font-size: var(--font-size-normal);
   }
+
+  .educationskills__institution {
+    font-size: var(--font-size-medium);
+  }
+
+  .educationskills__career {
+    font-size: var(--font-size-normal);
+  }
+
+  .educationskills__date {
+    font-size: var(--font-size-regular);
+  }
+
+  .educationskills__skill {
+    font-size: var(--font-size-normal);
+  }
 }
 
 @media screen and (min-width: 992px) {
   .educationskills__subtitle {
     line-height: 3rem;
+  }
+
+  .educationskills__listitem--education,
+  .educationskills__listitem--skill {
+    width: 50%;
   }
 }
