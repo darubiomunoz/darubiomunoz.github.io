@@ -87,7 +87,7 @@ const EducationSkills = () => {
           </p>
           <p className="educationskills__skill" tabIndex="0">
             NPM
-          </>
+          </p>
           <p className="educationskills__skill" tabIndex="0">
             SPA
           </p>
