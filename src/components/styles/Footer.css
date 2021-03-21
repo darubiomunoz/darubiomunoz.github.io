@@ -26,14 +26,18 @@
 .footer__link--icon {
   width: 100%;
   position: absolute;
-  z-index: var(--zindex-dropdown);
-  bottom: 3rem;
-  display: flex;
-  justify-content: center;
+  z-index: var(--zindex-tooltip);
+  top: 40%;
+  left: 90%;
 }
 
 .footer__icon {
   width: 3rem;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .footer__info {

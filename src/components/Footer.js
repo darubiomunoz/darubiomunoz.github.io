@@ -4,7 +4,7 @@ import "./styles/Footer.css";
 import backgroundSmall from "../assets/images/homepage-background-small.jpg";
 import backgroundMedium from "../assets/images/homepage-background-medium.jpg";
 import backgroundLarge from "../assets/images/homepage-background-large.jpg";
-import DownArrow from "../assets/icons/down-arrow.svg";
+import UpArrow from "../assets/icons/down-arrow.svg";
 
 const ComponentLogic = () => {
   const screen = window.screen.width;
@@ -28,7 +28,13 @@ const Footer = () => {
           alt="background images"
         />
       </picture>
-
+      <a className="footer__link--icon" href="#homepage">
+        <img
+          className="footer__icon"
+          src={UpArrow}
+          alt="Up Arrow. Press enter to go to the Homepage"
+        />
+      </a>
       <div className="footer__info">
         <h3 className="footer__title" tabIndex="0">
           Made with &#128151; by Diego Rubio
@@ -37,16 +43,6 @@ const Footer = () => {
           &#169; 2021 Diego Rubio
         </p>
       </div>
-
-      {screen >= 992 && (
-        <a className="footer__link--icon" href="#aboutme">
-          <img
-            className="footer__icon"
-            src={DownArrow}
-            alt="Down Arrow. Press enter to know more about me. "
-          />
-        </a>
-      )}
     </div>
   );
 };

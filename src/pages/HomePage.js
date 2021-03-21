@@ -17,7 +17,7 @@ const ComponentLogic = () => {
 const HomePage = () => {
   const { screen } = ComponentLogic();
   return (
-    <div className="homepage">
+    <div id="homepage" className="homepage">
       <picture className="homepage__container">
         <source srcSet={backgroundLarge} media="(min-width: 0px)"></source>
         <source srcSet={backgroundMedium} media="(min-width: 500px)"></source>
