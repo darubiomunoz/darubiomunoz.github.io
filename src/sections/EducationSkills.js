@@ -9,8 +9,8 @@ const EducationSkills = () => {
           Education
         </h3>
         <p className="educationskills__subtitle mt-3" tabIndex="0">
-          Continuous learning is a constant in my personal and professional
-          development.
+          Continuous learning &#129504; is a constant in my personal and professional
+          development &#128200;.
         </p>
         <ul className="educationskills__unorderedlist">
           <li className="educationskills__listitem--education">
@@ -18,10 +18,10 @@ const EducationSkills = () => {
               Platzi.com
             </h4>
             <p className="educationskills__career" tabIndex="0">
-              Web Development
+              Web/Frontend Development &#128187;
             </p>
             <p className="educationskills__date" tabIndex="0">
-              2020 - 2021
+              2020 - Present
             </p>
           </li>
           <li className="educationskills__listitem--education">
@@ -29,7 +29,7 @@ const EducationSkills = () => {
               Federico Santa María Technical University
             </h4>
             <p className="educationskills__career" tabIndex="0">
-              Construction and management, Bachelor degree
+              Construction and management, Bachelor degree &#128679;
             </p>
             <p className="educationskills__date" tabIndex="0">
               2012 - 2015
@@ -42,8 +42,8 @@ const EducationSkills = () => {
           Skills
         </h3>
         <p className="educationskills__subtitle mt-3" tabIndex="0">
-          I'd like to keep adding skills to this list in the coming months.
-          Skills like React Native and Node.JS.
+          I'd like to keep adding skills &#128293; to this list in the coming months.
+          Skills like React Native and Node.JS &#128202;.
         </p>
         <li className="educationskills__listitem--skill">
           <p className="educationskills__skill" tabIndex="0">
