@@ -1,0 +1,158 @@
+{
+  "homePage": {
+    "navbar": ["Home", "About Me", "Portfolio", "Education & Skills", "Contact"],
+    "hero": {
+      "title": "I am Diego Rubio",
+      "description": "I am a Front-end Developer &#128187; specialized in JavaScript. I like learning languages &#127544;, doing calistecnics/running &#127939;, reading books about various topics &#128218; and also I really enjoy programming web applications because it allows me to be very creative in finding solutions during the development process &#127776;."
+    },
+    "icons": [
+      {
+        "href": "https://www.linkedin.com/in/darmdev/",
+        "source": "https://i.postimg.cc/Z5VcVrWb/icon-linkedin-copy.png",
+        "alt": "LinkedIn. Press enter to visit my LinkedIn profile"
+      },
+      {
+        "href": "https://github.com/darubiomunoz",
+        "source": "https://i.postimg.cc/cHM6BcJT/icon-github-copy.png",
+        "alt": "GitHub. Press enter to visit my GitHub profile"
+      },
+      {
+        "href": "mailto:darubiomunoz@gmail.com",
+        "source": "https://i.postimg.cc/Px4rwr6R/icon-gmail-copy.png",
+        "alt": "Gmail. Press enter to send me an email to my Gmail account"
+      }
+    ]
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "textParagraph": ["I really enjoy learning languages &#127542; and I've been studying a lot of French and English the last couple of years, and I wanted to start learning a new language in 2020. However, I like to learn languages by immersion, in other words, by travelling &#128747; and living in places where people speak those language but the last year I could not travel, due to the pandemic, so my curiosity spiked and I started looking for &#127760; options to learn new things.",
+    "That's how I came across with programming languages &#127756;. I realized that they aren't so different to traditional languages so I could dive into studying them using the same principle of immersion by building things &#127981;.",
+    "In the process of learning to code, I started to meet other programmers and software developers, whom introduced me more into different web development communities and I felt awesome been around people that shared the same passion for learning &#129504; as me. That's when thanks to a friend &#128104;, made in the platzi's community for front-end development students, I realized that there were very good chances of pursuing a career as web developer &#128084;."],
+    "quote": "I felt the call, and I just couldn't wait to answer 'Yes'! &#128077;."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Hey! Check out some of my personal projects &#127747;. Click the github icon to go to the project's repository or Click the website icon to go to the project's site &#128160;.",
+    "projects": [
+      {
+        "id": 9,
+        "cover": "https://i.postimg.cc/43jZj59r/portfolio-9.jpg",
+        "title": "Slider",
+        "alt": "Screenshot of the slider project",
+        "description": "Component built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+        "link": "https://darubiomunoz.github.io/portfolio-09-testimonialslidercomponent/",
+        "code": "https://github.com/darubiomunoz/portfolio-09-testimonialslidercomponent"
+      },
+      {
+        "id": 8,
+        "cover": "https://i.postimg.cc/KjZWWkJ6/portfolio-8.jpg",
+        "title": "Article Preview",
+        "alt": "Screenshot of the article preview project",
+        "description": "Component built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+        "link": "https://darubiomunoz.github.io/portfolio-08-articlepreviewcomponent/",
+        "code": "https://github.com/darubiomunoz/portfolio-08-articlepreviewcomponent"
+      },
+      {
+        "id": 7,
+        "cover": "https://i.postimg.cc/FsC6PKc6/portfolio-7.jpg",
+        "title": "FAQ",
+        "alt": "Screenshot of the FAQ project",
+        "description": "Page built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+        "link": "https://darubiomunoz.github.io/portfolio-07-faqaccordioncard/",
+        "code": "https://github.com/darubiomunoz/portfolio-07-faqaccordioncard"
+      },
+      {
+        "id": 6,
+        "cover": "https://i.postimg.cc/13LjQYvc/portfolio-6.jpg",
+        "title": "Profile",
+        "alt": "Screenshot of the profile project",
+        "description": "Component built with React.JS, Bootstrap, CSS, Mobile First, Responsive Design, Accessibility.",
+        "link": "https://darubiomunoz.github.io/portfolio-06-profilecardcomponent/",
+        "code": "https://github.com/darubiomunoz/portfolio-06-profilecardcomponent"
+      },
+      {
+        "id": 5,
+        "cover": "https://i.postimg.cc/rwdb0tsJ/portfolio-5.jpg",
+        "title": "Original Trombone",
+        "alt": "Screenshot of the original trombone project",
+        "description": "Page built with HTML, SASS, Mobile First, Responsive Design, Accessibility.",
+        "link": "https://darubiomunoz.github.io/portfolio-05-productlandingpage/",
+        "code": "https://github.com/darubiomunoz/portfolio-05-productlandingpage"
+      },
+      {
+        "id": 4,
+        "cover": "https://i.postimg.cc/26dgjRyN/portfolio-4.jpg",
+        "title": "Survey Form",
+        "alt": "Screenshot of the survey form project",
+        "description": "Page built with HTML, SASS, Mobile First, Responsive Design, Accessibility.",
+        "link": "https://darubiomunoz.github.io/portfolio-04-surveyform/",
+        "code": "https://github.com/darubiomunoz/portfolio-04-surveyform"
+      },
+      {
+        "id": 3,
+        "cover": "https://i.postimg.cc/1XBxBh1r/portfolio-3.jpg",
+        "title": "Dr. N. Bourlag",
+        "alt": "Screenshot of the Dr. Norman Bourlag project",
+        "description": "Page built with HTML, SASS, Mobile First, Responsive Design, Accessibility.",
+        "link": "https://darubiomunoz.github.io/portfolio-03-tributepage/",
+        "code": "https://github.com/darubiomunoz/portfolio-03-tributepage"
+      },
+      {
+        "id": 2,
+        "cover": "https://i.postimg.cc/yxm6zb4D/portfolio-2.jpg",
+        "title": "Digital Clock",
+        "alt": "Screenshot of the digital clock project",
+        "description": "Page built with HTML, CSS, JavaScript, Mobile First, Responsive Design.",
+        "link": "https://darubiomunoz.github.io/portfolio-02-clock/",
+        "code": "https://github.com/darubiomunoz/portfolio-02-clock"
+      },
+      {
+        "id": 1,
+        "cover": "https://i.postimg.cc/mg8DDJcM/portfolio-1.png",
+        "title": "Stopwatch",
+        "alt": "Screenshot of the stopwatch project",
+        "description": "Page built with HTML, CSS, JavaScript, Mobile First, Responsive Design.",
+        "link": "https://darubiomunoz.github.io/portfolio-01-stopwatch/",
+        "code": "https://github.com/darubiomunoz/portfolio-01-stopwatch"
+      }
+    ]
+  },
+  "educationSkills": {
+    "titles": ["Education", "Skills"],
+    "subtitles": ["Continuous learning &#129504; is a constant in my personal and professional development &#128200;.",
+    "I'd like to keep adding skills &#128293; to this list in the coming months.Skills like React Native and Node.JS &#128202;."],
+    "educationInfo": [
+      {
+        "institution": "Platzi.com",
+        "career": "Web/Frontend Development",
+        "date": "2020 - Present"
+      },
+      {
+        "institution": "Federico Santa María Technical University",
+        "career": "Construction management, Bachelor degree",
+        "date": "2012 - 2015"
+      }
+    ],
+    "skillsInfo": ["HTML", "CSS", "Bootstrap", "SASS", "JavaScript ES 6+", "React", "React Router", "JSX", "Markdown", "Mobile First", "Responsive Design", "Web Accessibility", "Git & Github", "NPM", "SPA", "English", "French", "Spanish"]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Feel free to contact me &#128232; for any work or suggestions below &#128241;.",
+    "icons": [
+      {
+        "href": "https://www.linkedin.com/in/darmdev/",
+        "source": "https://i.postimg.cc/Z5VcVrWb/icon-linkedin-copy.png",
+        "alt": "LinkedIn. Press enter to visit my LinkedIn profile"
+      },
+      {
+        "href": "mailto:darubiomunoz@gmail.com",
+        "source": "https://i.postimg.cc/Px4rwr6R/icon-gmail-copy.png",
+        "alt": "Gmail. Press enter to send me an email to my Gmail account"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Made with &#128151; by Diego Rubio",
+    "subtitle": "&#169; 2021 Diego Rubio"
+  }
+}
