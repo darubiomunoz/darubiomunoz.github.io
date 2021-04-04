@@ -10,9 +10,9 @@ const Portfolio = () => (
       Portfolio
     </h3>
     <p className="portfolio__subtitle mt-3" tabIndex="0">
-      Hey! Check out some of my personal projects. Click the github icon to go
-      to the project's repository or Click the website icon to go to the
-      project's site
+      Hey! Check out some of my personal projects &#127747;. Click the github
+      icon to go to the project's repository or Click the website icon to go to
+      the project's site &#128160;.
     </p>
     <Carousel>
       <CarouselItem />

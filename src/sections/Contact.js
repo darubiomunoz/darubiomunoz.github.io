@@ -10,7 +10,7 @@ const Contact = () => (
       Contact
     </h3>
     <p className="contact__subtitle mt-3" tabIndex="0">
-      Feel free to contact me for any work or suggestions below.
+      Feel free to contact me &#128232; for any work or suggestions below &#128241;.
     </p>
     <ul className="hero__list--social">
       <li className="hero__list--item">

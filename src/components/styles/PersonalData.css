@@ -9,6 +9,7 @@
     height: 10rem;
     object-fit: cover;
     object-position: center;
+    border: .5rem solid var(--color-option4);
 }
 
 .card-body {

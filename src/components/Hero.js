@@ -9,7 +9,7 @@ const Hero = () => {
     return(
         <div className="hero">
             <h1 className="hero__title" tabIndex="0">I am Diego Rubio.</h1>
-            <h3 className="hero__text" tabIndex="0">I am a Front-end Developer specialized in JavaScript. I like learning languages, doing calistecnics/running, reading books about various topics and also I really enjoy programming web applications because it allows me to be very creative in finding solutions during the development process.</h3>
+            <h3 className="hero__text" tabIndex="0">I am a Front-end Developer &#128187; specialized in JavaScript. I like learning languages &#127544;, doing calistecnics/running &#127939;, reading books about various topics &#128218; and also I really enjoy programming web applications because it allows me to be very creative in finding solutions during the development process &#127776;.</h3>
             <ul className="hero__list--social">
                 <li className="hero__list--item">
                     <a href="https://www.linkedin.com/in/darmdev/" target="_blank" rel="noreferrer">
