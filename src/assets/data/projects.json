@@ -1,5 +1,14 @@
 [
   {
+    "id": 10,
+    "cover": "https://i.postimg.cc/tgcFR0Nt/cover.png",
+    "title": "Job listing with filtering",
+    "alt": "Screenshot of the Job Listing project",
+    "description": "Page built with React.JS, Redux, Redux Toolkit,CSS, Mobile First, Responsive Design, Accessibility.",
+    "link": "https://darubiomunoz.github.io/portfolio-10-joblistingwithfiltering/",
+    "code": "https://github.com/darubiomunoz/portfolio-10-joblistingwithfiltering/"
+  },
+  {
     "id": 9,
     "cover": "https://i.postimg.cc/43jZj59r/portfolio-9.jpg",
     "title": "Slider",
