@@ -9,8 +9,8 @@ const EducationSkills = () => {
           Education
         </h3>
         <p className="educationskills__subtitle mt-3" tabIndex="0">
-          Continuous learning &#129504; is a constant in my personal and professional
-          development &#128200;.
+          Continuous learning &#129504; is a constant in my personal and
+          professional development &#128200;.
         </p>
         <ul className="educationskills__unorderedlist">
           <li className="educationskills__listitem--education">
@@ -42,8 +42,8 @@ const EducationSkills = () => {
           Skills
         </h3>
         <p className="educationskills__subtitle mt-3" tabIndex="0">
-          I'd like to keep adding skills &#128293; to this list in the coming months.
-          Skills like React Native and Node.JS &#128202;.
+          I'd like to keep adding skills &#128293; to this list in the coming
+          months. Skills like React Native and Node.JS &#128202;.
         </p>
         <li className="educationskills__listitem--skill">
           <p className="educationskills__skill" tabIndex="0">
@@ -66,6 +66,12 @@ const EducationSkills = () => {
           </p>
           <p className="educationskills__skill" tabIndex="0">
             React Router
+          </p>
+          <p className="educationskills__skill" tabIndex="0">
+            Redux
+          </p>
+          <p className="educationskills__skill" tabIndex="0">
+            Redux Toolkit
           </p>
           <p className="educationskills__skill" tabIndex="0">
             JSX
