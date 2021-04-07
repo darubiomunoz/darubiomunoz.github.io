@@ -59,6 +59,13 @@
     }
 
     .card-text {
+        font-size: var(--font-size-medium);
         line-height: 3rem;
+    }
+
+    .quotes {
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-bold);
+        color: var(--color-option4);
     }
 }

@@ -117,10 +117,27 @@
 @media screen and (min-width: 992px) {
   .educationskills__subtitle {
     line-height: 3rem;
+    font-size: var(--font-size-medium);
   }
 
   .educationskills__listitem--education,
   .educationskills__listitem--skill {
     width: 50%;
+  }
+
+   .educationskills__institution {
+    font-size: var(--font-size-large);
+  }
+
+  .educationskills__career {
+    font-size: var(--font-size-medium);
+  }
+
+  .educationskills__date {
+    font-size: var(--font-size-normal);
+  }
+
+    .educationskills__skill {
+    font-size: var(--font-size-medium);
   }
 }

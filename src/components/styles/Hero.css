@@ -82,5 +82,6 @@
 @media (min-width: 992px) {
     .hero__text {
         width: 60%;
+        font-size: var(--font-size-medium);
     }
 }

@@ -39,5 +39,6 @@
 @media screen and (min-width: 992px) {
   .portfolio__subtitle {
     line-height: 3rem;
+    font-size: var(--font-size-medium);
   }
 }
