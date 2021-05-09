@@ -1,10 +1,19 @@
 [
   {
+    "id": 11,
+    "cover": "https://i.postimg.cc/JhPM08vX/cover.png",
+    "title": "Countries",
+    "alt": "Screenshot of the Countries project",
+    "description": "Project built with React.JS, Redux, and Styled Components as main technologies, also with HTML, CSS, Responsive Design, Accessibility, etc.",
+    "link": "https://darubiomunoz.github.io/portfolio-11-countries/",
+    "code": "https://github.com/darubiomunoz/portfolio-11-countries/"
+  },
+  {
     "id": 10,
     "cover": "https://i.postimg.cc/tgcFR0Nt/cover.png",
     "title": "Job listing with filtering",
     "alt": "Screenshot of the Job Listing project",
-    "description": "Page built with React.JS, Redux, Redux Toolkit,CSS, Mobile First, Responsive Design, Accessibility.",
+    "description": "Page built with React.JS, Redux, Redux Toolkit, CSS, Mobile First, Responsive Design, Accessibility.",
     "link": "https://darubiomunoz.github.io/portfolio-10-joblistingwithfiltering/",
     "code": "https://github.com/darubiomunoz/portfolio-10-joblistingwithfiltering/"
   },
