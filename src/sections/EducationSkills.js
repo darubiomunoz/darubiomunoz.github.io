@@ -59,10 +59,16 @@ const EducationSkills = () => {
             SASS
           </p>
           <p className="educationskills__skill" tabIndex="0">
+            Styled Components
+          </p>
+          <p className="educationskills__skill" tabIndex="0">
             JavaScript
           </p>
           <p className="educationskills__skill" tabIndex="0">
             React
+          </p>
+          <p className="educationskills__skill" tabIndex="0">
+            React Hooks
           </p>
           <p className="educationskills__skill" tabIndex="0">
             React Router
