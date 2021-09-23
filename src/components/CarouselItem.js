@@ -9,7 +9,7 @@ const ComponentLogic = () => {
   const [data, setData] = useState([]);
   const [isFocused, setIsFocused] = useState(false);
 
-  const URL = "https://api.jsonbin.io/b/60548436683e7e079c546027/11";
+  const URL = "https://api.jsonbin.io/b/60548436683e7e079c546027/12";
 
   const fetchData = async () => {
     const response = await fetch(URL);
